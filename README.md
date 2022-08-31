@@ -32,3 +32,15 @@ graph init \
   --node http://localhost:8020/ \
   punks
 ```
+
+Implementamos el mapping
+```
+cd punks
+yarn codegen
+```
+
+Despliegue local
+```
+yarn create-local
+yarn deploy-local
+```
